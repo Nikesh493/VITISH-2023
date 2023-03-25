@@ -1,0 +1,116 @@
+body{
+  font-family: 'Russo One', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+.top{
+  font-size: 1.3rem;
+  background-color: rgb(243,102,105);
+  /* background-color: #FDEBF7; */
+  padding: 20px 20px 20px 20px;
+  margin:0;
+
+}
+a{
+  color: white;
+    font-family: 'Russo One', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+.logo{
+  position: absolute;
+  right: 30px;
+  top:12px;
+  width: 40px;
+}
+.name{
+  width: 250px;
+}
+.main{
+  background-color: #EBFFFA;
+  
+}
+.main2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:40%;
+  margin: 0 auto 0 auto;
+  padding: 50px 0 50px 0;
+}
+.img1{
+  width: 50%;
+}
+p{
+  line-height: 1.5;
+  font-size: 1.4rem;
+}
+
+h1{
+  font-size: 5.625rem;
+  font-weight: normal;
+  line-height: 0.6;
+}
+.btn{
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #F36669 2px;
+  text-decoration: none;
+  width: 250px;
+}
+
+.btn:hover {
+  background: rgb(253,235,247);
+  background-image: -webkit-linear-gradient(top, #fdebf7, rgb(243,102,105));
+  background-image: -moz-linear-gradient(top, #fdebf7, rgb(243,102,105));
+  background-image: -ms-linear-gradient(top, #fdebf7, rgb(243,102,105));
+  background-image: -o-linear-gradient(top, #fdebf7, rgb(243,102,105));
+  background-image: linear-gradient(to bottom, #fdebf7, rgb(243,102,105));
+  text-decoration: none;
+
+}
+h2{
+  font-size: 1.9rem;
+
+}
+
+.content{
+  width: 70%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.r1{
+  float:right;
+  margin-left: 60px;
+  width: 40%;
+
+}
+.r2{
+  float:left;
+  width:45%;
+  margin-right: 40px;
+
+}
+.r3{
+  float:right;
+  margin-left: 30px;
+  width: 35%;
+}
+hr{
+  border: dotted #FFADF0 7px;
+  border-bottom: none;
+}
+.final{
+  margin: 150px 0 0 0;
+  background-color: #EBFFFA;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
